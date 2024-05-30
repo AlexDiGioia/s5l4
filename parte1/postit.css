@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    padding: 0;
+    margin:0;
+    font-family: "Comic Neue", cursive;
+    font-style: italic;
+}
+.postList{
+    background-color: #666666;
+    /*padding: 20%;*/
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    
+
+}
+
+.postit{
+    width: 22%;
+    background-color: #FFFFCD;
+    height: 30vh;
+    margin-bottom: 10vh;
+
+
+}
+
+.postit h2{
+    font-weight: 700;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 5%;
+}
+.postit p{
+    font-size: 1.5rem;
+    margin:6%;
+    text-align: center;
+}
+/*.postit:nth-child(5){
+    flex-basis: 100%;
+}*/
