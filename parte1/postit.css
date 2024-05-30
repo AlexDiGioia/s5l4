@@ -10,21 +10,26 @@ body{
     background-color: #666666;
     /*padding: 20%;*/
     height: 100%;
-    width: 100vw;
+    width: 80vw;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-top: 5%;
-    padding-bottom: 5%;
-
-    
+    margin-left: 5vw;    
+    margin-right: 5vw;   
 
 }
 
 .postit{
-    width: 22%;
+    width: 18%;
     background-color: #FFFFCD;
     height: 30vh;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     margin-bottom: 10vh;
 
 
@@ -41,6 +46,13 @@ body{
     margin:6%;
     text-align: center;
 }
+
+
+/*.postit:hover {
+    transform: rotate(10deg);
+    /*transition: transform .5s;
+}/*
+
 /*.postit:nth-child(5){
     flex-basis: 100%;
 }*/
