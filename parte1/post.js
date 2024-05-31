@@ -11,10 +11,10 @@ for(let i=0;i<postitList.length;i++){
 }
 
 for(let i=0;i<postitList.length;i++){
-    postit[i].addEventListener("mouseover", function() {
+    postitList[i].addEventListener("mouseover", function() {
         // Codice da eseguire quando il mouse esce dall'elemento
         // Ad esempio, puoi ripristinare lo stile originale dell'elemento
-        postit[i].style.backgroundColor = "white";
+        postitList[i].style.backgroundColor = "white";
     });
 }
 
